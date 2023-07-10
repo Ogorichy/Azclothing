@@ -1,0 +1,289 @@
+body{background: #EFDECD;
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    color:  #481F08;
+    font-size: 2rem;
+}
+/*navbar*/
+
+nav{
+	display: flex;
+   justify-content: space-between;
+   background: #481F08;
+   padding: 1.6rem;
+   flex-wrap: wrap;
+   height: 8vh;
+   overflow: hidden;
+   transition: all 1.3s ease;
+   width: 100%;
+	cursor: pointer;
+}
+
+
+.save{
+	background: #481F08; 
+	color: #EFDECD; 
+	height: 70vh;
+}
+.brand a{
+	text-decoration: none;
+	color: #EFDECD;
+	font-size: 2rem;
+	cursor: pointer;
+	
+}
+
+.brand a:hover{background:#EFDECD;
+                   color:  #481F08;
+                border-radius: 10px;
+            cursor: pointer;}
+.toggle i{
+	color:#EFDECD;
+	font-size: 2rem;
+	display: none;
+	cursor: pointer;
+}
+ .menu{
+	margin: 0px;
+	display: flex;
+	list-style: none;
+}
+.menu li a{
+	font-size: 2rem;
+	text-decoration: none;
+	color:  #EFDECD;
+	margin: 30px; 
+	cursor: pointer;    
+}
+.menu li a:hover{background: #EFDECD;
+                   color: #481F08;
+                    border-radius: 10px;
+                    cursor: pointer;}
+
+.icon i{
+		color: #EFDECD;
+	font-size: 3.1rem;
+	cursor: pointer;}
+
+ .icon i:hover{background: #EFDECD;
+                   color: #481F08;
+                    border-radius: 10px;
+                    cursor: pointer; }
+	
+/*End of Navbar*/
+
+
+
+/*Header Section*/
+.header{
+	display: flex;
+	align-items: flex-end;
+	min-height: 100vh;
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+	background-image: url("../img/14.jpg");
+	cursor: pointer;
+}
+.header-contents{
+	margin-bottom: 150px;
+	text-align: center;
+	cursor: pointer;
+}
+.header-contents h3{
+	font-size: 4vmin;
+	color: #EFDECD;
+	cursor: pointer;
+}
+button{font-size: 3vmin;
+	color: #EFDECD;
+    background: #481F08;
+   text-decoration: none;
+   cursor: pointer;}
+
+    button:hover{background: #EFDECD;
+                   color:  #481F08;   
+                border-radius: 10px;
+                cursor: pointer;
+            }
+
+.header-contents h1{
+	font-size: 5vmin;
+	color:  #EFDECD;
+	cursor: pointer;
+}
+/*End of Header Section*/
+
+
+/*About Section*/
+#About{
+	padding: 160px 40px 40px 40px;
+	height: 768px;
+	background: #EFDECD; 
+	color:  #481F08;
+	font-size: 3rem;
+	cursor: pointer;
+	font-family: monospace;
+}
+.myslide{
+	position: relative;
+}
+.cascade{
+	-webkit-animation-name: pj;
+	-webkit-animation-duration: 1.5s;
+	animation-name: pj;
+	animation-duration: 1.5s;
+}
+@keyframes pj{
+	from3
+		opacity: 0.5;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+/*End of About Section*/
+
+/*Services Section*/
+
+
+
+#Services{
+
+	padding: 160px 40px 40px 40px;
+	height: auto;
+    background: #EFDECD; 
+	color:  #481F08;
+	font-size: 2rem;
+    cursor: pointer;
+    font-family: monospace;
+
+}
+
+
+#Services h1{
+	margin-bottom: 40px;
+    text-align: center;
+}
+#Services h3{
+	text-align: center;
+}
+
+
+#Services img:hover{
+	-webkit-animation-name: x;
+	-webkit-animation-duration: 1.3s;
+	animation-name: x;
+	animation-duration: 1.3s;
+
+}
+
+
+@keyframes x{
+	from{
+		padding: 50px;
+		opacity: 0.5;
+		border: solid 0.5px;
+		border-radius: 20px;
+	}
+	to{
+		padding: 0px;
+		opacity: 1;
+	}
+}
+/*End of Service Section
+*/
+
+/*Contact*/
+
+#Contact{
+
+	padding: 160px 40px 40px 40px;
+	height: auto;
+    background: #EFDECD; 
+	color:  #481F08;
+	font-size: 3.1rem;
+    cursor: pointer;
+    font-family: monospace;
+
+}
+
+#Contact ul li a{text-decoration: none;
+                  background: #EFDECD; 
+	color:  #481F08;
+	font-size: 3.1rem;
+    cursor: pointer;
+    font-family: monospace; 
+    }
+
+
+#Contact ul li a:hover{background: #481F08;
+	color: #EFDECD; 
+	font-size: 3.1rem;
+    cursor: pointer;
+    font-family: monospace;
+    border-radius: 10px;
+
+    }
+#Contact ul li {list-style: none;}
+
+#Contact h1{
+	margin-bottom: 40px;
+    text-align: center;
+    background: #481F08;
+	color:  #EFDECD;
+	width: 100%;
+	height: 50px;
+}
+
+
+/*End of Contact*/
+
+/*Footer*/
+footer{
+	padding: 10px 0px 0px 0px;
+	background: #481F08;
+       height: 50px;
+       text-align: center;
+       color:  #EFDECD; 
+       font-size: 2rem;
+       font-family: monospace;
+       clear: both;}
+
+/*End of footer*/
+
+
+@media(max-width: 800px){
+	.menu{
+		flex-direction: column;
+	}
+	.menu li{
+		width: 100vw;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+    .toggle i{
+	display: initial;
+}
+nav{
+	width: 100%;
+	background:  #481F08;
+}
+#About{
+	background:  #EFDECD;
+	height: auto;
+	color:  #481F08;;
+}
+#Services{
+	background: #EFDECD;
+	color:  #481F08;
+}
+
+
+}
